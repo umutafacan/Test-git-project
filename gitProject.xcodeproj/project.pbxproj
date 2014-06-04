@@ -22,6 +22,7 @@
 		4CA369E5193F024E006F23EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA369C4193F024E006F23EE /* UIKit.framework */; };
 		4CA369ED193F024E006F23EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CA369EB193F024E006F23EE /* InfoPlist.strings */; };
 		4CA369EF193F024E006F23EE /* gitProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA369EE193F024E006F23EE /* gitProjectTests.m */; };
+		4CA369FA193F075A006F23EE /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA369F9193F075A006F23EE /* testViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		4CA369EA193F024E006F23EE /* gitProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitProjectTests-Info.plist"; sourceTree = "<group>"; };
 		4CA369EC193F024E006F23EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CA369EE193F024E006F23EE /* gitProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitProjectTests.m; sourceTree = "<group>"; };
+		4CA369F8193F075A006F23EE /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		4CA369F9193F075A006F23EE /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				4CA369D9193F024E006F23EE /* ViewController.m */,
 				4CA369DB193F024E006F23EE /* Images.xcassets */,
 				4CA369C7193F024E006F23EE /* Supporting Files */,
+				4CA369F8193F075A006F23EE /* testViewController.h */,
+				4CA369F9193F075A006F23EE /* testViewController.m */,
 			);
 			path = gitProject;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			files = (
 				4CA369DA193F024E006F23EE /* ViewController.m in Sources */,
 				4CA369D1193F024E006F23EE /* AppDelegate.m in Sources */,
+				4CA369FA193F075A006F23EE /* testViewController.m in Sources */,
 				4CA369CD193F024E006F23EE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
